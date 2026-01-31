@@ -8,10 +8,10 @@ Mas você está livre para editar e substituir o perfil da iFood por qualquer ou
 
 **IMPORTANTE**
 
-- As Skills funcionam apenas na versão desktop do Claude
-- Verifique se o conector para o Figma está ativado, dentro do Claude
-- Se você enfrentar qualquer problema compartilhando links, a Skill também aceita prints
-- Instale a extensão da ferramenta Apify, dentro do Claude, para garantir o acesso aos posts e comentários no perfil do Instagram
+- **As Skills funcionam apenas na versão desktop do Claude.**
+- **Verifique se o conector para o Figma está ativado, dentro do Claude.**
+- **Se você enfrentar qualquer problema compartilhando links, a Skill também aceita prints 😀.**
+- **Instale a extensão da ferramenta Apify, dentro do Claude, para garantir o acesso aos posts e comentários no perfil do Instagram.**
 
 ---
 
