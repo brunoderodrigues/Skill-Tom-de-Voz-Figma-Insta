@@ -1,11 +1,15 @@
 # Skill Tom de Voz (Figma-Instagram) 🗣️
 
-Skill para validação de tom de voz entre conteúdos do Figma e a linguagem autêntica do público-alvo no Instagram. A Skill está configurada para trabalhar a análise de tom de voz em comparação com os comentários dos posts da iFood Brasil, no Instagram. Mas está assim apenas como exemplo, você pode substituir o perfil da iFood por qualquer outro que quiser.
+Skill para validação de tom de voz entre conteúdos de telas e fluxos do Figma e a linguagem autêntica do público-alvo no Instagram. 
 
-**Importante**
+Como exemplo, a Skill está configurada para trabalhar a análise de tom de voz em comparação com os comentários dos posts da iFood Brasil. 
+
+Mas você está livre para editar e substituir o perfil da iFood por qualquer outro que quiser.
+
+**IMPORTANTE**
 
 - As Skills funcionam apenas na versão desktop do Claude
-- Verifique se o conector para o Figma está ativado dentro do Claude
+- Verifique se o conector para o Figma está ativado, dentro do Claude
 - Se você enfrentar qualquer problema compartilhando links, a Skill também aceita prints
 - Instale a extensão da ferramenta Apify, dentro do Claude, para garantir o acesso aos posts e comentários no perfil do Instagram
 
