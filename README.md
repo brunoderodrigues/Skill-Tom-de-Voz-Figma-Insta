@@ -1,10 +1,17 @@
-# Skill Tom de Voz iFood 🗣️
+# Skill Tom de Voz (Figma-Instagram) 🗣️
 
-Skill para validação de tom de voz entre conteúdos do Figma e a linguagem autêntica do público-alvo da iFood no Instagram.
+Skill para validação de tom de voz entre conteúdos do Figma e a linguagem autêntica do público-alvo no Instagram. A Skill está configurada para trabalhar a análise de tom de voz em comparação com os comentários dos posts da iFood Brasil, no Instagram. Mas está assim apenas como exemplo, você pode substituir o perfil da iFood por qualquer outro que quiser.
+
+**Importante**
+
+- As Skills funcionam apenas na versão desktop do Claude
+- Verifique se o conector para o Figma está ativado dentro do Claude
+- Se você enfrentar qualquer problema compartilhando links, a Skill também aceita prints
+- Instale a extensão da ferramenta Apify, dentro do Claude, para garantir o acesso aos posts e comentários no perfil do Instagram
 
 ---
 
-## 📋 O Problema
+## 📋 O problema
 
 UX Writers e Content Designers frequentemente criam conteúdos para aplicativos e interfaces sem ter uma forma objetiva de validar se estão realmente "falando a mesma língua" do público-alvo. Existe um gap entre:
 
@@ -19,9 +26,9 @@ Esse desalinhamento pode resultar em:
 
 ---
 
-## ✨ A Solução
+## ✨ A solução
 
-Esta skill automatiza a análise comparativa entre o tom de voz do seu conteúdo no Figma e a linguagem real dos seguidores da iFood Brasil no Instagram. 
+Esta skill automatiza a análise comparativa entre o tom de voz do seu conteúdo no Figma e a linguagem real dos seguidores da iFood Brasi no Instagram. 
 
 **Como funciona:**
 1. Você cola o link de uma tela ou seleção do Figma
@@ -32,7 +39,7 @@ Esta skill automatiza a análise comparativa entre o tom de voz do seu conteúdo
 
 ---
 
-## 🎯 O Propósito
+## 🎯 O propósito
 
 Criar uma ponte entre o design de conteúdo e a voz autêntica do usuário, permitindo que profissionais de UX e design:
 
@@ -44,7 +51,7 @@ Criar uma ponte entre o design de conteúdo e a voz autêntica do usuário, perm
 
 ---
 
-## 🎁 O Que Você Ganha Com Isso
+## 🎁 O que você ganha com isso
 
 ### Para UX Writers e Content Designers:
 - ✅ Validação rápida de tom de voz (minutos vs. horas de pesquisa manual)
@@ -58,7 +65,7 @@ Criar uma ponte entre o design de conteúdo e a voz autêntica do usuário, perm
 - ✅ Alinhamento entre design visual e verbal
 - ✅ Insights sobre preocupações reais dos usuários
 
-### Para o Produto:
+### Para o produto:
 - ✅ Conteúdos mais próximos e empáticos
 - ✅ Maior engajamento e conversão
 - ✅ Redução de fricção na experiência do usuário
@@ -66,9 +73,9 @@ Criar uma ponte entre o design de conteúdo e a voz autêntica do usuário, perm
 
 ---
 
-## 💡 Casos de Uso
+## 💡 Casos de uso
 
-### 1. Fluxo de Checkout
+### 1. Fluxo de checkout
 **Cenário:** Você criou o microcopy para o fluxo de checkout do app iFood.
 
 **Uso da skill:** 
@@ -77,7 +84,7 @@ Criar uma ponte entre o design de conteúdo e a voz autêntica do usuário, perm
 - Receba feedback sobre se a linguagem está próxima de como os usuários realmente falam
 - Ajuste termos técnicos ou formais para expressões mais naturais
 
-### 2. Mensagens de Erro
+### 2. Mensagens de erro
 **Cenário:** Desenvolvendo mensagens de erro e feedback do sistema.
 
 **Uso da skill:**
@@ -85,7 +92,7 @@ Criar uma ponte entre o design de conteúdo e a voz autêntica do usuário, perm
 - Identifique oportunidades de usar humor ou leveza (se identificado nos comentários)
 - Valide se o vocabulário é compreensível
 
-### 3. Onboarding de Novos Usuários
+### 3. Onboarding de novos usuários
 **Cenário:** Criando o fluxo de boas-vindas para novos usuários.
 
 **Uso da skill:**
@@ -93,7 +100,7 @@ Criar uma ponte entre o design de conteúdo e a voz autêntica do usuário, perm
 - Identifique gírias ou expressões que podem criar proximidade
 - Ajuste o tom para ser acolhedor da forma que o público aprecia
 
-### 4. Comunicações Promocionais
+### 4. Comunicações promocionais
 **Cenário:** Desenvolvendo banners e CTAs para campanhas.
 
 **Uso da skill:**
@@ -116,7 +123,6 @@ Criar uma ponte entre o design de conteúdo e a voz autêntica do usuário, perm
 ### Pré-requisitos
 - Conta ativa no Claude.ai
 - Acesso ao Figma (visualização ou edição)
-- Acesso ao perfil do Instagram @ifoodbrasil (público)
 
 ### Passo a Passo
 
@@ -125,7 +131,7 @@ Criar uma ponte entre o design de conteúdo e a voz autêntica do usuário, perm
    # Clone o repositório
    git clone https://github.com/seu-usuario/skill-tom-de-voz.git
    
-   # Ou baixe diretamente o arquivo .skill
+   # Ou baixe diretamente o arquivo .skill ou .md
    ```
 
 2. **Acesse o Claude.ai**
@@ -135,7 +141,7 @@ Criar uma ponte entre o design de conteúdo e a voz autêntica do usuário, perm
 3. **Adicione a Skill**
    - Vá para a seção "Skills" ou "Ferramentas"
    - Clique em "Upload Skill" ou "Adicionar Skill"
-   - Selecione o arquivo `skill-tom-de-voz.skill`
+   - Selecione o arquivo `Skill_Tom de Voz_Figma_Insta.skill` ou `Skill_Tom de Voz_Figma_Insta.md`
    - Aguarde confirmação de instalação
 
 4. **Ative a Skill**
@@ -151,7 +157,7 @@ Criar uma ponte entre o design de conteúdo e a voz autêntica do usuário, perm
 
 ## 🎨 Integração com o Figma
 
-### Como Obter o Link Correto do Figma
+### Como obter o link correto do Figma
 
 A skill funciona melhor quando você compartilha links específicos de seleções, não do arquivo inteiro.
 
@@ -181,7 +187,7 @@ A skill funciona melhor quando você compartilha links específicos de seleçõe
 https://www.figma.com/file/ABC123/Projeto?node-id=123:456&t=xyz789
 ```
 
-### Dicas para Melhor Análise
+### Dicas para melhor análise
 
 - ✅ **Selecione apenas conteúdo textual relevante** (evite incluir toda a página se só quer analisar um componente)
 - ✅ **Agrupe telas relacionadas** ao mesmo fluxo para análise de consistência
@@ -191,11 +197,11 @@ https://www.figma.com/file/ABC123/Projeto?node-id=123:456&t=xyz789
 
 ---
 
-## 🎓 O Que Você Aprenderá
+## 🎓 O que você aprenderá
 
 Usando esta skill regularmente, você desenvolverá:
 
-### Habilidades Analíticas
+### Habilidades analíticas
 - **Identificação de padrões linguísticos** em diferentes contextos sociais
 - **Percepção de nuances** entre tom formal e informal
 - **Sensibilidade cultural** para variações regionais do português brasileiro
@@ -207,13 +213,13 @@ Usando esta skill regularmente, você desenvolverá:
 - **Equilíbrio entre clareza e autenticidade**
 - **Empatia baseada em dados** reais de usuários
 
-### Visão Estratégica
+### Visão estratégica
 - **Conexão entre conteúdo e problemas reais** dos usuários
 - **Priorização de ajustes** com maior impacto
 - **Validação objetiva** de decisões de design
 - **Alinhamento entre marca e audiência**
 
-### Processo de Trabalho
+### Processo de trabalho
 - **Iteração mais rápida** em conteúdos
 - **Documentação de decisões** baseadas em análise
 - **Colaboração mais efetiva** com dados concretos
@@ -225,14 +231,9 @@ Usando esta skill regularmente, você desenvolverá:
 
 Esta skill foi desenvolvida para facilitar o trabalho de profissionais de UX Writing e Content Design, especialmente aqueles que trabalham com produtos digitais onde a autenticidade da linguagem é fundamental para o sucesso.
 
-**Desenvolvido por:** [Seu Nome/Equipe]
+**Desenvolvido por:** Bruno de Oliveira Rodrigues
 
 **Inspiração:** A necessidade constante de validar se estamos realmente falando a língua do nosso público, não apenas seguindo manuais de estilo.
-
-**Agradecimentos:**
-- À comunidade de UX Writers brasileiros
-- Aos seguidores da iFood que, através de seus comentários autênticos, nos ensinam como nosso público realmente se comunica
-- À equipe do Anthropic/Claude pela plataforma de skills
 
 ---
 
@@ -262,7 +263,7 @@ Contribuições são bem-vindas! Se você tem ideias para melhorar esta skill:
 4. Push para a branch (`git push origin feature/MinhaNovaFeature`)
 5. Abra um Pull Request
 
-### Ideias para Contribuições
+### Ideias para contribuições
 - Suporte para outras marcas/perfis do Instagram
 - Análise de múltiplas fontes (Twitter, TikTok, etc.)
 - Exportação de relatórios em diferentes formatos
@@ -275,27 +276,13 @@ Contribuições são bem-vindas! Se você tem ideias para melhorar esta skill:
 
 Encontrou algum problema ou tem dúvidas?
 
-- 🐛 [Abra uma issue](https://github.com/seu-usuario/skill-tom-de-voz/issues)
-- 💬 [Inicie uma discussão](https://github.com/seu-usuario/skill-tom-de-voz/discussions)
-- 📧 Entre em contato: seuemail@exemplo.com
+- 🐛 Abra uma issue
+- 💬 Inicie uma discussão
+- 📧 Entre em contato: bruno.drioli@gmail.com
 
 ---
 
-## 🗺️ Roadmap
-
-Funcionalidades planejadas para futuras versões:
-
-- [ ] Análise comparativa com múltiplos perfis sociais
-- [ ] Histórico de análises e evolução do tom de voz
-- [ ] Exportação de relatórios em PDF
-- [ ] Sugestões de glossário personalizado
-- [ ] Integração com Notion para documentação
-- [ ] Dashboard com métricas de alinhamento ao longo do tempo
-- [ ] Suporte multilíngue
-
----
-
-## ⭐ Mostre seu Apoio
+## ⭐ Mostre seu apoio
 
 Se esta skill foi útil para você, considere:
 - ⭐ Dar uma estrela no repositório
@@ -304,5 +291,3 @@ Se esta skill foi útil para você, considere:
 - 🤝 Contribuir com melhorias
 
 ---
-
-**Feito com ❤️ para a comunidade de UX Writing brasileira**
